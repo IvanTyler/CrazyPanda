@@ -1,0 +1,48 @@
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 12.5px -2.5px -2.5px -2.5px;
+}
+
+.pageItem {
+    height: 30px;
+    width: 30px;
+    border: solid gray 1px;
+    margin: 2.5px;
+}
+.pageItem:last-of-type {
+    margin-right: 0;
+}
+
+.pageLink {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapperButtonPage {
+    margin-top: 15px;
+}
+
+.buttonPage {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 30px;
+    color: #fff;
+    background-color: #1991eb;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.buttonPage:first-child {
+    margin-right: 8px;
+}
+.buttonPage:hover {
+    background-color: #0b77c8;
+}
